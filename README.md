@@ -27,7 +27,7 @@ This is the main page that you can make some query and when you opn the file, th
 ![image](https://user-images.githubusercontent.com/70474875/171054944-747d1ae9-d818-4ce3-b097-b7cccdf0cc5b.png)
 
 
-# Note
+# Notes
 
 >> You can download csv file that content the last data 
 
