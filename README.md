@@ -13,18 +13,18 @@ Sqlite Viewer using python
 
 Here you will choose the sqlite file
 
-![image](https://user-images.githubusercontent.com/70474875/171042912-6fffcd49-40a2-4d42-a99c-06baf633045f.png)
+![image](https://user-images.githubusercontent.com/70474875/171055012-61be3546-02bb-43ac-bb44-62b2529424e0.png)
 
 As you can see here I chose database.sqlite file, then open it
 
-![image](https://user-images.githubusercontent.com/70474875/171043165-f3936ecf-a880-4a29-9942-fdc95276e335.png)
+![image](https://user-images.githubusercontent.com/70474875/171055049-ac04f897-c88e-46f2-80b5-3a9edd9fcc4f.png)
 
 
 # View SQLite file
 
 This is the main page that you can make some query and when you opn the file, the first query will execute automaticaly
 
-![image](https://user-images.githubusercontent.com/70474875/171043372-235fc544-f1c3-4ea2-b171-86c1eb667f78.png)
+![image](https://user-images.githubusercontent.com/70474875/171054944-747d1ae9-d818-4ce3-b097-b7cccdf0cc5b.png)
 
 
 # Note
