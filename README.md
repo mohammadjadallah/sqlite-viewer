@@ -30,18 +30,25 @@ This is the main page that you can make some query and when you opn the file, th
 # Note
 
 >> You can download csv file that content the last data 
+
 >> You can change file, if the file not database you will see error-window-pop-up explain that the problem
+
 >> you can modify on the database and if you try this you will see warning window-pop-up
+
 >> if you make a mistake you will see an error-window-pop-up that explain the problem
->> you can execute one command each time if you there is more than one command you can use a comment to that command as (--)
+
+>> you can execute one command each time if there is more than one command you can use a comment to that command as (--)
 
 
 # Any Contribution, suggestion
 
-# My accounts, you can follow me on social media to benefit from the purposeful programming content in link below
+# My accounts
 
---> https://linktr.ee/developerx
---> Email: mhmdjmala51@gmail.com
+you can follow me on social media to benefit from the purposeful programming content in link below:
+
+https://linktr.ee/developerx
+
+Email: mhmdjmala51@gmail.com
 
 
 
