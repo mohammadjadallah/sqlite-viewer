@@ -1,4 +1,6 @@
-#                                     # ربنا واشرح لي صدري وييسر لي أمري
+#                                                                      ربنا واشرح لي صدري وييسر لي أمري
+
+
 import os
 from tkinter import *
 from tkinter import filedialog, messagebox
@@ -62,11 +64,8 @@ class App:
 
     # ask user to open the file and after choose the file return the path
     # to use the path when we want to connect with the database
-    def path_of_sql_fiile(self):
-        pass
 
     def open_sql_file(self):
-        # name_file = None
         try:
             # to make sure the open window not open if execute btn pressed
             # if self.btn_open_file["text"] == "Execute":
@@ -76,9 +75,8 @@ class App:
         except (TypeError, AttributeError):
             # messagebox.showerror(title="Error", message="This is Error ")
             pass
-            # print(name_file.name) to know the path of the file >> name='C:/Users/Wesam/Downloads/210906.jpg'
+            # print(name_file.name) to know the path of the file >> name='C:/Users/yourname/Downloads/210906.jpg'
         finally:
-            # هنا الفكرة إنه ممكن ادمر عناصر الشاشة واللي فيها واعمل شاشة عرض البيانات
             # when we press cancel button will return None
             if self.name_file is None:
                 print('Cancel is pressed')
@@ -143,11 +141,6 @@ class App:
         # how to change color of selected row: map to make dynamic values usnig opetion we use
         self.style.map("Treeview", background=[("selected", '#fea8dc')], foreground=[("selected", "black")])
 
-        # column of data
-        # for i in range(len(columns)):
-        #     self.tree.column(column=columns[i], stretch=YES, width=600)
-        #     self.tree.heading(column=columns[i], text=f"{columns[i]}", anchor=W)
-
         # config scrollbar
         ysbar.config(command=self.tree.yview)
         xsbar.config(command=self.tree.xview)
@@ -155,14 +148,6 @@ class App:
         # config the form of the rows
         self.tree.tag_configure("oddrow", background="white")
         self.tree.tag_configure("evenrow", background="#d9d3ee")
-
-        # insert data and determin if the row index is eve or odd to make stripped rows
-        # for value, index in zip(data, range(len(data))):
-        #     # if even
-        #     if index % 2 == 0:
-        #         self.tree.insert(parent="", index=END, values=value, iid=index, tags="evenrow")
-        #     else:
-        #         self.tree.insert(parent="", index=END, values=value, iid=index, tags="oddrow")
 
         self.tree.pack(fill=X)
 
@@ -250,7 +235,6 @@ class App:
                     self.tree.insert(parent="", index=END, values=value, iid=index, tags="evenrow")
                 else:  # if odd
                     self.tree.insert(parent="", index=END, values=value, iid=index, tags="oddrow")
-                    # self.tree.delete()
 
         except (pd.io.sql.DatabaseError, sqlite3.OperationalError) as e:
             if str(e).endswith('attempt to write a readonly database'):
@@ -289,7 +273,7 @@ class App:
 
             if self.box_queries.get(0.0, 'end - 1c').lower().strip():
                 pass  # here if we put this line when the text box empty the message error will pop up no command
-                        # but when there is anything else heppen cause of the Typeerro,
+                        # but when there is anything else heppen cause of the Typeerror,
                         # as when we use create table if not exists toto(id in, name text),
                         # we don't need to show popup or error because the command is true
                         # and indeed the table is exists
@@ -394,8 +378,6 @@ class App:
             df = pd.DataFrame(data, columns=self.tree['columns'])
 
             file_to_save = filedialog.asksaveasfilename(filetypes=[('CSV files', '*.csv')])
-            # with filedialog.asksaveasfilename(filetypes=[('all files', '.*')]) as file_to_save:
-            # print(file_to_save)
             df.to_csv(file_to_save, index=False)
             print("finished...")
 
