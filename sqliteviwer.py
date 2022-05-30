@@ -1,5 +1,22 @@
 #                                                                      ربنا واشرح لي صدري وييسر لي أمري
 
+'''
+
+Download pandas >> pip install pandas
+
+This code created by Mohammad Al Jadallah >> developerx
+
+You can help to make this code more better
+
+Follow me in 
+
+Instagram >> developerx2
+TikTok >> developerx2
+Youtube >> developerx
+
+Thank you,
+
+'''
 
 import os
 from tkinter import *
