@@ -34,7 +34,14 @@ This is the main page that you can make some query and when you opn the file, th
 >> you can modify on the database and if you try this you will see warning window-pop-up
 >> if you make a mistake you will see an error-window-pop-up that explain the problem
 >> you can execute one command each time if you there is more than one command you can use a comment to that command as (--)
->> 
+
+
+# Any Contribution, suggestion
+
+# My accounts, you can follow me on social media to benefit from the purposeful programming content in link below
+
+--> https://linktr.ee/developerx
+--> Email: mhmdjmala51@gmail.com
 
 
 
